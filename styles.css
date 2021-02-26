@@ -105,9 +105,8 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background: url(images/arrow-select.png) no-repeat 254px 12px;
 	background-size: 10px;
-	background-position: calc(100% - 15px) 50%;
+	background: url(images/arrow-select.png) no-repeat calc(100% - 15px) 50%;
 	padding: 14px 40px 14px 15px;
 }
 
@@ -228,28 +227,9 @@ h2.product-title-bar {
 	margin: 20px 0 0;
 }
 
-#product-carousel .item {
-	position: relative;
-	background: url('images/bg-sign.webp') no-repeat 50% 0 transparent;
-	background-size: 100%;
-}
-
 #product-carousel  .item .slide-pic-container {
 	z-index: 3;
 	position: relative;
-}
-
-#product-carousel  .item::before {
-	content: '';
-	width: 87%;
-	border: 3px solid #dbdbdb;
-	display: block;
-	position: absolute;
-	top: 25px;
-	left: 50%;
-	transform: translate(-50%, 0);
-	z-index: 1;
-	padding-top: 72%;
 }
 
 @media screen and (max-width: 767px) {
