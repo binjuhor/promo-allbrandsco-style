@@ -40,19 +40,15 @@ a {
 	text-decoration: none;
 	color: #3fc5af;
 	outline: none;
-
-	&:hover {
-		text-decoration: none;
-		outline: none;
-	}
 }
 
-main {
-	a {
-		&:hover {
-			text-decoration: none;
-		}
-	}
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+main a :hover {
+	text-decoration: none;
 }
 
 p {
@@ -113,10 +109,10 @@ select {
 	background-size: 10px;
 	background-position: calc(100% - 15px) 50%;
 	padding: 14px 40px 14px 15px;
+}
 
-	&::-ms-expand {
-		padding: 20px;
-	}
+select::-ms-expand {
+	padding: 20px;
 }
 
 input[type="number"],
