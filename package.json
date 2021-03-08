@@ -20,7 +20,7 @@
   },
   "scripts": {
     "watch": "node-sass -w sass/main.scss ./main.css",
-    "production": "node-sass sass/main.scss ./main.css --output-style compressed",
+    "production": "node-sass sass/main.scss ./main.css --output-style compressed"
   },
   "dependencies": {
     "magnific-popup": "^1.1.0",
