@@ -1222,6 +1222,7 @@
 			color: $primary-color;
 			line-height: 1;
 			margin: 0 0 20px;
+			font-family: 'UTM Rockwell', "serif";
 		}
 
 		h3 {
@@ -1260,12 +1261,14 @@
 	}
 
 	.order-fund {
-		color: #fff;
-
 		@media screen and (min-width: 992px) {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			grid-column-gap: 60px;
+		}
+
+		*{
+			color: #fff;
 		}
 
 		> div {
@@ -1280,12 +1283,13 @@
 			}
 
 			h3 {
-				font-size: 26px;
-				font-family: $font-family-primary;
+				font-size: 26px!important;
+				font-family: $font-family-primary!important;
 				margin: 0 0 17px;
+				line-height: 1.2;
 
 				@media screen and (min-width: 480px) {
-					font-size: 36px;
+					font-size: 36px!important;
 				}
 			}
 
