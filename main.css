@@ -986,7 +986,8 @@ textarea.dn-styled,
   font-family: "PorscheNext", "serif" !important;
   outline: none;
   border: 1px solid #E9E9E9;
-  border-radius: 4px; }
+  border-radius: 4px;
+  line-height: 1.2 !important; }
 
 @media screen and (max-width: 767px) {
   .hide-mobile {
@@ -1276,7 +1277,7 @@ textarea.dn-styled,
       background-color: transparent;
       color: #3fc5af; }
   .btn.btn-track {
-    background-image: url("../images/icons/track_order.svg");
+    background-image: url("/images/icons/track_order_8fc0ab66.svg");
     background-size: 20px;
     background-repeat: no-repeat;
     background-position: 15px 50%;
