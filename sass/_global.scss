@@ -54,7 +54,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $font-family-secondary;
+	font-family: $font-family-secondary !important;
 	font-weight: 700;
 	position: relative;
 	line-height: 1.2;
@@ -102,8 +102,12 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 input[type="password"],
-textarea {
-	padding: 18px;
+textarea,
+input.dn-styled,
+select.dn-styled,
+textarea.dn-styled,
+.dn-faux-select.dn-styled{
+	padding:3px 18px!important;
 	outline: none;
 	border: 1px solid #E9E9E9;
 	border-radius: 4px;
