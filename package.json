@@ -1,0 +1,28 @@
+{
+  "name": "allbrands-static",
+  "version": "1.0.0",
+  "description": "Just static files for allbrandsco.com",
+  "author": "xDevlabs - info@xdevlabs.com",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "SCSS"
+  ],
+  "homepage": "https://xdevlabs.com",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:crebitss-workzone/aahron-html.git"
+  },
+  "bugs": {
+    "url": "https://xdevlabs.com/contact.html"
+  },
+  "scripts": {
+    "watch": "node-sass -w sass/_main.scss ./main.css",
+    "build": "node-sass sass/main.scss ./main.css --output-style compressed"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
