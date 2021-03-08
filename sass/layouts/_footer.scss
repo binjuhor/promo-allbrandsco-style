@@ -75,6 +75,8 @@
 					position: relative;
 					padding-bottom: 10px!important;
 					margin: 0 0 30px!important;
+					border-bottom: none;
+					padding-top: 0;
 
 					&::after {
 						content: '';
@@ -200,6 +202,7 @@
 
 			.dn-form-footer-actions {
 				margin-top: 0!important;
+				padding-top: 0!important;
 
 				.dn-btn {
 					border-radius: 0 4px 4px 0;

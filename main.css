@@ -4132,7 +4132,9 @@ Home page
         font-family: "PorscheNext", "serif" !important;
         position: relative;
         padding-bottom: 10px !important;
-        margin: 0 0 30px !important; }
+        margin: 0 0 30px !important;
+        border-bottom: none;
+        padding-top: 0; }
         .footer-site .footer-inner > section .widget > h3::after,
         .footer-site .footer-inner > section .widget h2::after {
           content: '';
@@ -4214,7 +4216,8 @@ Home page
         .footer-site .subscribe-form .dn-form li.dn-form-footer-actions {
           width: 40%; }
       .footer-site .subscribe-form .dn-form .dn-form-footer-actions {
-        margin-top: 0 !important; }
+        margin-top: 0 !important;
+        padding-top: 0 !important; }
         .footer-site .subscribe-form .dn-form .dn-form-footer-actions .dn-btn {
           border-radius: 0 4px 4px 0;
           padding: 2.5px; }
