@@ -19,10 +19,12 @@
     "url": "https://xdevlabs.com/contact.html"
   },
   "scripts": {
-    "watch": "node-sass -w sass/_main.scss ./main.css",
+    "watch": "node-sass -w sass/main.scss ./main.css",
     "build": "node-sass sass/main.scss ./main.css --output-style compressed"
   },
   "dependencies": {
-    "node-sass": "^4.14.1"
+    "magnific-popup": "^1.1.0",
+    "node-sass": "^4.14.1",
+    "slick-carousel": "^1.8.1"
   }
 }

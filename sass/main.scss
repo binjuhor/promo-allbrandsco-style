@@ -1,5 +1,39 @@
-/**  Mixins */
+@import "variables";
+/** Import everything from autoload */
 @import "mixins/sass-rem";
-@import "mixins/break-point";
+@import "mixins/breakpoint";
+@import "../node_modules/magnific-popup/src/css/main";
 
-@import "main";
+// Import Fonts
+@import "fonts";
+
+// Reset CSS
+@import "normalize";
+
+/** Import SLick slider */
+$slick-loader-path: "../node_modules/slick-carousel/slick/" !default;
+$slick-font-path: "../node_modules/slick-carousel/slick/fonts/" !default;
+@import "../node_modules/slick-carousel/slick/slick.scss";
+@import "../node_modules/slick-carousel/slick/slick-theme.scss";
+
+// Import Styles
+@import "global";
+
+@import "partials/slick-slider";
+
+/**
+Home page
+ */
+@import "layouts/header";
+@import "layouts/page";
+@import "layouts/footer";
+
+/**
+Partials
+ */
+@import "layouts/sidebar";
+
+/**
+Shop page
+ */
+@import "layouts/shop";

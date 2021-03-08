@@ -1,0 +1,264 @@
+.footer-site {
+	border-top: 4px solid $secondary-color;
+	background: #f2f4f4;
+	padding: 40px 0 5px;
+
+	@media screen and (min-width: 768px) {
+		padding: 70px 0 55px;
+	}
+
+	a {
+		color: $base-color;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+
+	.footer-inner {
+		@media screen and (min-width: 768px) {
+			display: flex;
+			margin: 0 -15px;
+			flex-wrap: wrap;
+		}
+
+		@media screen and (min-width: 1200px) {
+			justify-content: space-between;
+		}
+
+		> section {
+			margin-bottom: 30px;
+			box-sizing: border-box;
+
+			@media screen and (min-width: 768px) {
+				width: 50%;
+				padding: 0 15px;
+			}
+
+			@media screen and (min-width: 1200px) {
+				width: 25%;
+
+				&:nth-child(1) {
+					width: 24%;
+				}
+
+				&:nth-child(2) {
+					width: 18%;
+				}
+
+				&:nth-child(3) {
+					width: 24%;
+				}
+
+				&:nth-child(4) {
+					width: 27%;
+
+					.widget {
+						margin-bottom: 30px;
+					}
+				}
+			}
+
+			&:first-child {
+				@media screen and (max-width: 767px) {
+					text-align: center;
+				}
+			}
+
+			.widget {
+				margin-bottom: 20px;
+
+				> h3 {
+					font-size: 24px;
+					font-family: $font-family-primary;
+					position: relative;
+					padding-bottom: 10px;
+					margin: 0 0 30px;
+
+					&::after {
+						content: '';
+						position: absolute;
+						width: 30px;
+						height: 3px;
+						bottom: 0;
+						left: 0;
+						background: $primary-color;
+					}
+				}
+
+				> h4 {
+					margin: 0;
+					display: inline-block;
+					font-size: 24px;
+					font-family: $font-family-primary;
+					margin-right: 10px;
+
+					@media screen and (max-width: 767px) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.nav {
+		@extend %list-none;
+
+		@media screen and (max-width: 767px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		li {
+			margin-bottom: 5px;
+
+			@media screen and (max-width: 767px) {
+				width: 50%;
+				padding-right: 15px;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.contact-info {
+		@extend %list-none;
+
+		li {
+			margin-bottom: 10px;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			background-size: 23px;
+			padding-left: 38px;
+
+			@media screen and (min-width: 768px) {
+				margin-bottom: 30px;
+			}
+
+			&.hotline {
+				background-image: url("/images/icons/phone_672c17b4.svg");
+			}
+
+			&.email {
+				background-image: url("/images/icons/mail_5445a004.svg");
+			}
+
+			&.address {
+				background-image: url("/images/icons/pin_e3f1f2ef.svg");
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.subscribe-form {
+		width: 100%;
+		position: relative;
+
+		input {
+			font-size: 16px;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			outline: none;
+			padding: 15px 115px 15px 20px;
+			width: 100%;
+			box-sizing: border-box;
+		}
+
+		button {
+			position: absolute;
+			top: 0;
+			right: 0;
+			height: 100%;
+			background: $primary-color;
+			border-radius: 0 3px 3px 0;
+			border: 0;
+			color: #fff;
+			outline: none;
+			padding: 0 27px;
+			text-transform: uppercase;
+			font-size: 14px;
+			cursor: pointer;
+		}
+	}
+
+	.socials {
+		@extend %list-none;
+		display: block;
+
+		@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+
+		@media screen and (min-width: 768px) {
+			display: inline-block;
+		}
+
+		li {
+			display: inline-block;
+
+			a {
+				border: 2px solid #cacaca;
+				line-height: 36px;
+				display: block;
+				box-sizing: border-box;
+				width: 40px;
+				height: 40px;
+				text-align: center;
+				border-radius: 50%;
+				padding: 1px 0;
+				color: $base-color;
+
+				@media screen and (max-width: 767px) {
+					margin: 5px;
+				}
+
+				&:hover {
+					color: $primary-color;
+					border-color: $primary-color;
+				}
+			}
+		}
+	}
+
+	.payments {
+		@extend %list-none;
+
+		@media screen and (max-width: 767px) {
+			text-align: center;
+		}
+
+		li {
+			display: inline-block;
+
+			img {
+				width: 58px;
+			}
+		}
+	}
+}
+
+.footer-bottom {
+	background: #f2f4f4;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	color: $base-color;
+	font-size: 16px;
+	padding: 18px 0 16px;
+
+	span {
+		margin: 0 8px;
+	}
+
+	a {
+		color: $base-color;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
