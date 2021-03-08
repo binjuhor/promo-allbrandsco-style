@@ -22,6 +22,11 @@ $slick-font-path: "../node_modules/slick-carousel/slick/fonts/" !default;
 @import "partials/slick-slider";
 
 /**
+  Modules
+ */
+@import "modules/button";
+
+/**
 Home page
  */
 @import "layouts/header";

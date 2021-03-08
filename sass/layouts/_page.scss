@@ -2451,7 +2451,9 @@
 	}
 
 	&.dark-cover {
-		color: #fff;
+		* {
+			color: #fff;
+		}
 	}
 }
 
