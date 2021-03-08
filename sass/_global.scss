@@ -107,7 +107,8 @@ input.dn-styled,
 select.dn-styled,
 textarea.dn-styled,
 .dn-faux-select.dn-styled{
-	padding:3px 18px!important;
+	padding: 18px!important;
+	font-family: $font-family-primary !important;
 	outline: none;
 	border: 1px solid #E9E9E9;
 	border-radius: 4px;
