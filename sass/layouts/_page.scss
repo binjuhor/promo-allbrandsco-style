@@ -1222,12 +1222,12 @@
 			color: $primary-color;
 			line-height: 1;
 			margin: 0 0 20px;
-			font-family: 'UTM Rockwell', "serif";
+			font-family: 'UTM Rockwell', "serif" !important;
 		}
 
 		h3 {
 			font-size: 24px;
-			font-family: $font-family-primary;
+			font-family: $font-family-primary!important;
 			margin: 0 0 25px;
 			position: relative;
 			padding-bottom: 19px;
@@ -2133,6 +2133,10 @@
 
 			.help-body {
 				padding: 0 30px;
+
+				* {
+					color: #fff;
+				}
 
 				> h3 {
 					font-size: 24px;

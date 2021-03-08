@@ -68,12 +68,13 @@
 			.widget {
 				margin-bottom: 20px;
 
-				> h3 {
+				> h3,
+				h2 {
 					font-size: 24px;
-					font-family: $font-family-primary;
+					font-family: $font-family-primary!important;
 					position: relative;
-					padding-bottom: 10px;
-					margin: 0 0 30px;
+					padding-bottom: 10px!important;
+					margin: 0 0 30px!important;
 
 					&::after {
 						content: '';
@@ -183,6 +184,36 @@
 			text-transform: uppercase;
 			font-size: 14px;
 			cursor: pointer;
+		}
+		.dn-form {
+			display: flex;
+			li {
+				margin-bottom: 0!important;
+				&.dn-newsletter-signup-email-address-field {
+					width: 60%;
+				}
+
+				&.dn-form-footer-actions {
+					width: 40%;
+				}
+			}
+
+			.dn-form-footer-actions {
+				margin-top: 0!important;
+
+				.dn-btn {
+					border-radius: 0 4px 4px 0;
+					padding: 2.5px;
+				}
+			}
+			.dn-form-field-value {
+				input {
+					border-radius: 4px 0 0 4px;
+				}
+			}
+			label {
+				display: none;
+			}
 		}
 	}
 

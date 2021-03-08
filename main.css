@@ -2794,10 +2794,10 @@ Home page
       color: #3fc5af;
       line-height: 1;
       margin: 0 0 20px;
-      font-family: 'UTM Rockwell', "serif"; }
+      font-family: 'UTM Rockwell', "serif" !important; }
     .design-order .item h3 {
       font-size: 24px;
-      font-family: "PorscheNext", "serif";
+      font-family: "PorscheNext", "serif" !important;
       margin: 0 0 25px;
       position: relative;
       padding-bottom: 19px;
@@ -3451,6 +3451,8 @@ Home page
           height: 78px; }
       .here-to-help > div .help-inner .help-body {
         padding: 0 30px; }
+        .here-to-help > div .help-inner .help-body * {
+          color: #fff; }
         .here-to-help > div .help-inner .help-body > h3 {
           font-size: 24px;
           font-family: "PorscheNext", "serif";
@@ -4124,13 +4126,15 @@ Home page
         text-align: center; } }
     .footer-site .footer-inner > section .widget {
       margin-bottom: 20px; }
-      .footer-site .footer-inner > section .widget > h3 {
+      .footer-site .footer-inner > section .widget > h3,
+      .footer-site .footer-inner > section .widget h2 {
         font-size: 24px;
-        font-family: "PorscheNext", "serif";
+        font-family: "PorscheNext", "serif" !important;
         position: relative;
-        padding-bottom: 10px;
-        margin: 0 0 30px; }
-        .footer-site .footer-inner > section .widget > h3::after {
+        padding-bottom: 10px !important;
+        margin: 0 0 30px !important; }
+        .footer-site .footer-inner > section .widget > h3::after,
+        .footer-site .footer-inner > section .widget h2::after {
           content: '';
           position: absolute;
           width: 30px;
@@ -4201,6 +4205,23 @@ Home page
       text-transform: uppercase;
       font-size: 14px;
       cursor: pointer; }
+    .footer-site .subscribe-form .dn-form {
+      display: flex; }
+      .footer-site .subscribe-form .dn-form li {
+        margin-bottom: 0 !important; }
+        .footer-site .subscribe-form .dn-form li.dn-newsletter-signup-email-address-field {
+          width: 60%; }
+        .footer-site .subscribe-form .dn-form li.dn-form-footer-actions {
+          width: 40%; }
+      .footer-site .subscribe-form .dn-form .dn-form-footer-actions {
+        margin-top: 0 !important; }
+        .footer-site .subscribe-form .dn-form .dn-form-footer-actions .dn-btn {
+          border-radius: 0 4px 4px 0;
+          padding: 2.5px; }
+      .footer-site .subscribe-form .dn-form .dn-form-field-value input {
+        border-radius: 4px 0 0 4px; }
+      .footer-site .subscribe-form .dn-form label {
+        display: none; }
   .footer-site .socials {
     display: block; }
     @media screen and (max-width: 767px) {
