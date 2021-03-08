@@ -4134,7 +4134,8 @@ Home page
         padding-bottom: 10px !important;
         margin: 0 0 30px !important;
         border-bottom: none;
-        padding-top: 0; }
+        padding-top: 0;
+        color: #333; }
         .footer-site .footer-inner > section .widget > h3::after,
         .footer-site .footer-inner > section .widget h2::after {
           content: '';
@@ -4145,11 +4146,11 @@ Home page
           left: 0;
           background: #3fc5af; }
       .footer-site .footer-inner > section .widget > h4 {
-        margin: 0;
         display: inline-block;
         font-size: 24px;
         font-family: "PorscheNext", "serif";
-        margin-right: 10px; }
+        margin: 0 10px 0 0;
+        color: #333; }
         @media screen and (max-width: 767px) {
           .footer-site .footer-inner > section .widget > h4 {
             display: none; } }
