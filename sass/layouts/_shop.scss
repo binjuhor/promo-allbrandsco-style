@@ -990,8 +990,18 @@ div.dn-d-size-multi-container {
   }
 
   #artworks {
-    .dn-btn-std {
+    li {
+      display: flex;
+      justify-content: space-between;
+      &:nth-child(n+1) {
+        label {
+          display: none;
+        }
 
+        .dn-request-quote-choose-file {
+          max-width: 150px!important;
+        }
+      }
     }
   }
 }
