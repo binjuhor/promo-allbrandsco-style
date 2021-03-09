@@ -5,9 +5,10 @@
       padding: 10px 0 0!important;
 
       &:hover {
-        background: $primary-color;
+
         span {
-          color: $white-color;
+          background: $primary-color;
+          color: $white-color!important;
         }
       }
 
@@ -15,14 +16,15 @@
         > span {
           border-bottom: 1px solid #e5e5e5;
           padding: 0 15px 8px;
+          display: block;
         }
       }
 
       span {
-        display: block;
         &.dn-hierarchy-label {
           border-bottom: 1px solid #e5e5e5;
           padding: 0 15px 8px;
+          display: block;
         }
 
         &.dn-hierarchy-expander {
@@ -41,7 +43,7 @@
       font-family: $font-family-primary!important;
       font-size: 24px!important;
       color: $primary-color!important;
-      text-transform: uppercase;
+      text-transform: uppercase!important;
       padding-left: 15px;
       padding-bottom: 15px;
       border-bottom:1px solid #e5e5e5;
