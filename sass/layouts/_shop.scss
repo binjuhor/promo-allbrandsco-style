@@ -816,7 +816,7 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 		padding: 0;
 
 		@include breakpoint($break-769) {
-			margin-right: 30px;
+			margin-right: 110px;
 		}
 		h4 {
 			text-transform: uppercase;
@@ -829,7 +829,6 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 				color: #333;
 			}
 		}
-
 	}
 
 	.dn-tabs-panels {
@@ -871,5 +870,13 @@ div.dn-d-size-multi-container {
 			}
 
 		}
+	}
+}
+
+.dn-product-heading-container-above-content {
+	h1 {
+		font-family: $font-family-primary!important;
+		font-size: 36px;
+		margin-bottom: 20px;
 	}
 }
