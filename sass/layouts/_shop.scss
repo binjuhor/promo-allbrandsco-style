@@ -814,7 +814,10 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 		background: none;
 		margin-left: 0!important;
 		padding: 0;
-		margin-right: 30px;
+
+		@include breakpoint($break-769) {
+			margin-right: 30px;
+		}
 		h4 {
 			text-transform: uppercase;
 			font-family: $font-family-primary!important;
@@ -849,10 +852,12 @@ div.dn-d-size-multi-container {
 
 .dn-product-bottom-panel {
 	.dn-product-extra-images {
-		margin-bottom: 40px;
-		margin-top: 150px;
+		@include breakpoint($break-769) {
+			margin-bottom: 80px;
+			margin-top: 150px!important;
+		}
 		h4 {
-			font-family: $font-family-secondary!important;
+			font-family: $font-family-primary!important;
 			text-transform: uppercase;
 			border-bottom: 1px solid #ccc;
 			padding-bottom: 10px;
@@ -860,8 +865,11 @@ div.dn-d-size-multi-container {
 		}
 
 		img {
-			height: 250px!important;
-			object-fit: cover;
+			@include breakpoint($break-769) {
+				height: 250px!important;
+				object-fit: cover;
+			}
+
 		}
 	}
 }
