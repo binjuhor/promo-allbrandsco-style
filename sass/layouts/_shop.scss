@@ -1000,7 +1000,8 @@ div.dn-d-size-multi-container {
   padding: 5px 2px 5px 2px!important;
 }
 
-.dn-designer-select-item-type-popup {
+.dn-designer-select-item-type-popup,
+.dn-with-error {
   &.dn-at-fullheight {
     height: auto!important;
   }

@@ -140,7 +140,7 @@
 					position: relative;
 					background: #fff;
 					border-radius: 3px;
-					padding: 7px 10px 0px;
+					padding: 7px 10px 0;
 					display: inline-block;
 					vertical-align: middle;
 					margin-left: 15px;
@@ -353,7 +353,6 @@
 							.toogle-dropdown {
 								position: absolute;
 								cursor: pointer;
-								position: absolute;
 								right: 0;
 								top: 11px;
 								padding: 6px;
@@ -365,7 +364,7 @@
 								line-height: 1;
 
 								&::before {
-									font-family: FontAwesome;
+									font-family: 'FontAwesome';
 									content: "\f105";
 								}
 							}
