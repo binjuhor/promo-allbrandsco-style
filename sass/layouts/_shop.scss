@@ -752,7 +752,7 @@
 					height: 150px;
 					border: 3px solid #dbdbdb;
 					position: absolute;
-					bottom: 82px;
+					bottom: 0;
 					left: 50%;
 					transform: translate(-50%, 0);
 					@include breakpoint($break-769) {
@@ -762,7 +762,9 @@
 				}
 
 				&:hover {
-					background-color: $primary-color;
+					&::before {
+						border-color: $primary-color;
+					}
 				}
 			}
 		}
