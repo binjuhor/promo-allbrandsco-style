@@ -805,3 +805,24 @@ div.dn-product-main-image-panel {
 div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-product-details-panel {
 	padding-left: 30px!important;
 }
+
+.dn-tabs-container {
+	.dn-tabs li {
+		border: none;
+		background: none;
+		margin-left: 0!important;
+		margin-right: 70px;
+		h4 {
+			text-transform: uppercase;
+			font-family: $font-family-secondary!important;
+			color: #aaa;
+		}
+
+		&.dn-alt {
+			h4 {
+				color: #333;
+			}
+		}
+
+	}
+}
