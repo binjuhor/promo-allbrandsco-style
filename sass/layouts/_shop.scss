@@ -938,3 +938,14 @@ div.dn-d-size-multi-container {
   }
 
 }
+
+#quote_request_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  > div {
+    &:not(.dn-disabled-overlay) {
+      max-width: 45%;
+    }
+  }
+}
