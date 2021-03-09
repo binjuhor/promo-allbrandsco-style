@@ -2,7 +2,14 @@
   li {
     @include breakpoint($break-769) {
       position: relative;
-      padding: 10px 0 0;
+      padding: 10px 0 0!important;
+
+      &:hover {
+        background: $primary-color;
+        span {
+          color: $white-color;
+        }
+      }
 
       &.dn-hierarchy-node-view-all {
         > span {
