@@ -743,6 +743,27 @@
 		.dn-grid-item-container {
 			.dn-grid-image {
 				background: url("/images/bg-sign_a8d54f20.png") no-repeat 50% 50% transparent;
+				background-size: contain;
+				position: relative;
+
+				&::before {
+					content: "";
+					width: 150px;
+					height: 150px;
+					border: 3px solid #dbdbdb;
+					position: absolute;
+					bottom: 82px;
+					left: 50%;
+					transform: translate(-50%, 0);
+					@include breakpoint($break-769) {
+						width: 220px;
+						height: 220px;
+					}
+				}
+
+				&:hover {
+					background-color: $primary-color;
+				}
 			}
 		}
 	}
