@@ -1011,15 +1011,16 @@ div.dn-d-size-multi-container {
 
       > a {
         position: absolute;
-        left: calc(100% + 15px);
+        left:100%;
         color: transparent;
         display: block;
         width: 32px;
         height: 32px;
+        top: 15px;
 
         &::before {
           content: "\f00d";
-          font-font: FontAwesome;
+          font-family: FontAwesome;
           color: red;
           position: absolute;
           left: 50%;
