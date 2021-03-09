@@ -940,23 +940,29 @@ div.dn-d-size-multi-container {
 }
 
 #quote_request_form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  @include breakpoint($break-769) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
   > div {
     &:not(.dn-disabled-overlay) {
-      max-width: 45%;
-      width: 100%;
+      @include breakpoint($break-769) {
+        max-width: 48%;
+        width: 100%;
+      }
     }
   }
 
   .dn-d-size-multi-container {
     ul {
       li {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include breakpoint($break-769) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
     }
   }
@@ -993,14 +999,28 @@ div.dn-d-size-multi-container {
     li {
       display: flex;
       justify-content: space-between;
-      &:nth-child(n+1) {
-        label {
-          display: none;
-        }
+      label {
+        display: none;
+      }
 
-        .dn-request-quote-choose-file {
-          max-width: 150px!important;
+      .dn-request-quote-choose-file {
+        max-width: 150px!important;
+      }
+
+      &:first-child {
+        label {
+          display: block;
         }
+      }
+    }
+  }
+}
+
+#product_known_options {
+  ul {
+    li {
+      &:first-child {
+        display: flex;
       }
     }
   }
