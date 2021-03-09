@@ -942,7 +942,7 @@ div.dn-d-size-multi-container {
 #quote_request_form {
   @include breakpoint($break-769) {
     column-count: 2;
-    column-gap: 30px;
+    column-gap: 40px;
   }
 
   > div {
