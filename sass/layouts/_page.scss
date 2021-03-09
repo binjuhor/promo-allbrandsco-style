@@ -63,7 +63,7 @@
 
 	h3 {
 		font-size: 24px;
-		font-family: $font-family-primary;
+		font-family: $font-family-primary!important;
 		margin: 0 0 10px;
 	}
 
@@ -166,12 +166,12 @@
 			h4 {
 				font-size: 24px;
 				font-weight: 700;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				margin: 0 0 5px;
 			}
 
 			h5 {
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				font-size: 18px;
 				font-weight: 400;
 				margin: 0;
@@ -185,7 +185,7 @@
 			}
 
 			h3 {
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				font-size: 20px;
 				max-width: 80%;
 				white-space: nowrap;
@@ -302,7 +302,7 @@
 
 			h3 {
 				font-size: 24px;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				text-transform: uppercase;
 				margin: 0 0 8px;
 			}
@@ -752,7 +752,7 @@
 			color: #223b4f;
 			font-size: 36px;
 			text-transform: uppercase;
-			font-family: $font-family-primary;
+			font-family: $font-family-primary!important;
 			margin: 0 0 10px;
 
 			@media screen and (min-width: 1200px) {
@@ -880,7 +880,7 @@
 
 				h4 {
 					font-size: 16px;
-					font-family: $font-family-primary;
+					font-family: $font-family-primary!important;
 					text-transform: uppercase;
 					margin: 0 0 3px;
 					color: $secondary-color;
@@ -888,7 +888,7 @@
 
 				h3 {
 					font-size: 30px;
-					font-family: $font-family-primary;
+					font-family: $font-family-primary!important;
 					margin: 0 0 7px;
 					color: #223b4f;
 				}
@@ -987,7 +987,7 @@
 				font-size: 30px;
 				margin: 0 0 7px;
 				text-transform: uppercase;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 			}
 
 			p {
@@ -1118,7 +1118,7 @@
 
 	h3 {
 		font-size: 30px;
-		font-family: $font-family-secondary;
+		font-family: $font-family-secondary!important;
 		margin: 0 0 10px;
 		text-transform: uppercase;
 
@@ -1130,7 +1130,7 @@
 
 	h4 {
 		font-size: 18px;
-		font-family: $font-family-primary;
+		font-family: $font-family-primary!important;
 		font-weight: 400;
 		margin: 0 0 5px;
 
@@ -1390,7 +1390,7 @@
 				background: #fafafa;
 				font-size: 18px;
 				font-weight: 700;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				padding: 22px 22px 22px 57px;
 				margin: 15px 0;
 				position: relative;
@@ -1562,7 +1562,7 @@
 			h3 {
 				font-size: 24px;
 				color: #223b4f;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				text-transform: uppercase;
 				margin: 0 0 3px;
 			}
@@ -2108,7 +2108,7 @@
 				color: $primary-color;
 				text-align: center;
 				background: #fff;
-				font-family: $font-family-primary;
+				font-family: $font-family-primary!important;
 				line-height: 1.3;
 				text-transform: uppercase;
 				padding: 7px 15px 15px;
@@ -2140,7 +2140,7 @@
 
 				> h3 {
 					font-size: 24px;
-					font-family: $font-family-primary;
+					font-family: $font-family-primary!important;
 					margin: 55px 0 15px;
 				}
 
@@ -2173,7 +2173,7 @@
 						text-transform: uppercase;
 						margin: 0;
 						color: $secondary-color;
-						font-family: $font-family-primary;
+						font-family: $font-family-primary!important;
 					}
 				}
 
@@ -2354,7 +2354,7 @@
 				}
 
 				h3 {
-					font-family: $font-family-primary;
+					font-family: $font-family-primary!important;
 					font-size: 18px;
 					margin: 0;
 				}
@@ -2390,7 +2390,7 @@
 		}
 
 		h3 {
-			font-family: $font-family-primary;
+			font-family: $font-family-primary!important;
 			font-size: 18px;
 			margin: 0;
 		}
@@ -3036,14 +3036,14 @@
 
 		h3 {
 			font-size: 20px;
-			font-family: $font-family-primary;
+			font-family: $font-family-primary!important;
 			text-transform: uppercase;
 			margin: 5px 0 5px;
 		}
 
 		h4 {
 			font-size: 18px;
-			font-family: $font-family-primary;
+			font-family: $font-family-primary!important;
 			font-weight: 400;
 			margin: 0 0 10px;
 		}
