@@ -973,6 +973,12 @@ div.dn-d-size-multi-container {
 
   h4 {
     font-family: $font-family-primary!important;
+    margin-bottom: 40px;
+    input {
+      &:first-child {
+        margin-left: 0;
+      }
+    }
   }
 
   .dn-request-quote-customer-container {
@@ -996,7 +1002,7 @@ div.dn-d-size-multi-container {
   }
 
   #artworks {
-    li {
+    > li {
       display: flex;
       justify-content: space-between;
       label {
