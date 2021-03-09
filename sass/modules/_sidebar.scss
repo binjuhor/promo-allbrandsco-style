@@ -4,14 +4,6 @@
       position: relative;
       padding: 10px 0 0!important;
 
-      &:hover {
-
-        span {
-          background: $primary-color;
-          color: $white-color!important;
-        }
-      }
-
       &.dn-hierarchy-node-view-all {
         > span {
           border-bottom: 1px solid #e5e5e5;
