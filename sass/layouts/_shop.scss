@@ -767,6 +767,24 @@
 					}
 				}
 			}
+			.dn-product-name {
+				>a {
+					&:hover {
+						*{
+							color: $primary-color;
+						}
+					}
+					display: flex;
+					flex-direction: column;
+					.dn-code {
+						order: 0;
+					}
+
+					.dn-name {
+						order: 1;
+					}
+				}
+			}
 		}
 	}
 }
