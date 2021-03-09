@@ -941,15 +941,13 @@ div.dn-d-size-multi-container {
 
 #quote_request_form {
   @include breakpoint($break-769) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    column-count: 2;
+    column-gap: 30px;
   }
 
   > div {
     &:not(.dn-disabled-overlay) {
       @include breakpoint($break-769) {
-        max-width: 48%;
         width: 100%;
       }
     }
@@ -967,10 +965,6 @@ div.dn-d-size-multi-container {
     }
   }
 
-  #product_known_options {
-    order: 1;
-  }
-
   h4 {
     font-family: $font-family-primary!important;
     margin-bottom: 40px;
@@ -979,22 +973,6 @@ div.dn-d-size-multi-container {
           margin-left: 0;
       }
     }
-  }
-
-  .dn-request-quote-customer-container {
-    order: 2;
-  }
-
-  .dn-request-quote-artwork-container {
-    order: 3;
-  }
-
-  .dn-request-quote-extra-container {
-    order: 4;
-  }
-
-  .dn-request-quote-decoration-container {
-    order: 5;
   }
 
   .dn-request-quote-artwork-sizes {
@@ -1011,7 +989,7 @@ div.dn-d-size-multi-container {
 
       > a {
         position: absolute;
-        left:100%;
+        left:98%;
         color: transparent;
         display: block;
         width: 32px;
@@ -1032,6 +1010,13 @@ div.dn-d-size-multi-container {
 
       label {
         display: none;
+      }
+
+      span {
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
 
       .dn-request-quote-choose-file {
