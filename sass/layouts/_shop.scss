@@ -46,7 +46,7 @@
       font-size: 18px;
       margin: 0;
       font-weight: 400;
-      font-family: $font-family-primary!important;
+      font-family: $font-family-primary !important;
     }
   }
 
@@ -262,7 +262,7 @@
 
     h3 {
       font-size: 24px;
-      font-family: $font-family-primary!important;
+      font-family: $font-family-primary !important;
       text-transform: uppercase;
       margin: 0 0 10px;
 
@@ -277,7 +277,7 @@
 
     h4 {
       font-size: 18px;
-      font-family: $font-family-primary!important;
+      font-family: $font-family-primary !important;
       font-weight: 400;
       margin: 0 0 5px;
       overflow: hidden;
@@ -398,7 +398,7 @@
 
     > div {
       > h3 {
-        font-family: $font-family-primary!important;
+        font-family: $font-family-primary !important;
         font-weight: 700;
         font-size: 18px;
         margin: 30px 0;
@@ -408,7 +408,7 @@
     h1 {
       font-size: 26px;
       margin: 0 0 10px;
-      font-family: $font-family-primary!important;
+      font-family: $font-family-primary !important;
 
       @media screen and (min-width: 768px) {
         font-size: 36px;
@@ -666,7 +666,7 @@
   > h3 {
     font-size: 24px;
     text-transform: uppercase;
-    font-family: $font-family-primary!important;
+    font-family: $font-family-primary !important;
     margin: 0;
 
     @media screen and (max-width: 1199px) {
@@ -717,7 +717,7 @@
   > h3 {
     font-size: 24px;
     text-transform: uppercase;
-    font-family: $font-family-primary!important;
+    font-family: $font-family-primary !important;
     margin: 0;
     border-bottom: 1px solid #CFD8DC;
     padding-bottom: 20px;
@@ -784,7 +784,7 @@
             font-size: 12px;
             color: rgba(34, 34, 34, 0.6);
             text-transform: uppercase;
-            font-weight: 400!important;
+            font-weight: 400 !important;
             margin-bottom: 8px;
             margin-top: 0;
             line-height: 1.5;
@@ -820,10 +820,10 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 
 .dn-tabs-container {
   .dn-tabs li {
-    border: none!important;
-    background: none!important;
+    border: none !important;
+    background: none !important;
     margin-left: 0 !important;
-    padding: 0!important;
+    padding: 0 !important;
 
     @include breakpoint($break-769) {
       margin-right: 30px;
@@ -843,10 +843,10 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
   }
 
   .dn-tabs-panels {
-    border: none!important;
-    border-top: 1px solid #ccc!important;
-    padding: 40px 0!important;
-    border-radius: 0!important;
+    border: none !important;
+    border-top: 1px solid #ccc !important;
+    padding: 40px 0 !important;
+    border-radius: 0 !important;
   }
 }
 
@@ -893,7 +893,7 @@ div.dn-d-size-multi-container {
   }
 
   h1 {
-    font-size: 36px!important;
+    font-size: 36px !important;
     margin-bottom: 20px;
     margin-top: 0;
   }
@@ -926,14 +926,14 @@ div.dn-d-size-multi-container {
 
   .dn-product-details-panel {
     .dn-btn {
-      border-radius: 50px!important;
+      border-radius: 50px !important;
     }
   }
 
   .dn-product-decorate-now-container {
     @include breakpoint($break-769) {
-      margin-top: 45px!important;
-      margin-bottom: 40px!important;
+      margin-top: 45px !important;
+      margin-bottom: 40px !important;
     }
   }
 
@@ -943,9 +943,41 @@ div.dn-d-size-multi-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
   > div {
     &:not(.dn-disabled-overlay) {
       max-width: 45%;
+      width: 100%;
     }
+  }
+
+  .dn-d-size-multi-container {
+    ul {
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  #product_known_options {
+    order: 1;
+  }
+
+  .dn-request-quote-customer-container {
+    order: 2;
+  }
+
+  .dn-request-quote-artwork-container {
+    order: 3;
+  }
+
+  .dn-request-quote-extra-container {
+    order: 4;
+  }
+
+  .dn-request-quote-decoration-container {
+    order: 5;
   }
 }
