@@ -811,6 +811,7 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 		border: none;
 		background: none;
 		margin-left: 0!important;
+		padding: 0;
 		margin-right: 30px;
 		h4 {
 			text-transform: uppercase;
@@ -824,5 +825,10 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 			}
 		}
 
+	}
+
+	.dn-tabs-panels {
+		border-top: 1px solid #ccc;
+		padding: 40px 0;
 	}
 }
