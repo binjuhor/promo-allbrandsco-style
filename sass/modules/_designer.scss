@@ -5,7 +5,8 @@
         color: #aaa;
         display: block;
         margin-right: 70px;
-        &.active {
+        &.active,
+        &:hover {
           color: #333;
         }
 
