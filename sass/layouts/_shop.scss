@@ -813,8 +813,8 @@ div.dn-product-display[data-breakpoint-600='true'].dn-product-image-left div.dn-
 
 .dn-tabs-container {
   .dn-tabs li {
-    border: none;
-    background: none;
+    border: none!important;
+    background: none!important;
     margin-left: 0 !important;
     padding: 0!important;
 
