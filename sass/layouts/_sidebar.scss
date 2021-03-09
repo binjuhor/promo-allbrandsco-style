@@ -202,3 +202,58 @@
 		}
 	}
 }
+
+.dn-hierarchy {
+	li {
+		@include breakpoint($break-769) {
+			position: relative;
+			padding: 10px 0 0!important;
+
+			&.dn-hierarchy-node-view-all {
+				> span {
+					border-bottom: 1px solid #e5e5e5;
+					padding: 0 15px 8px;
+					display: block!important;
+				}
+			}
+
+			span {
+				&.dn-hierarchy-label {
+					border-bottom: 1px solid #e5e5e5;
+					padding: 0 15px 8px;
+					display: block!important;
+				}
+
+				&.dn-hierarchy-expander {
+					position: absolute;
+					right: 15px;
+					top: 14px;
+				}
+			}
+		}
+	}
+}
+
+@include breakpoint($break-769) {
+	.dn-blank-product-hierarchy-container {
+		h2 {
+			font-family: $font-family-primary!important;
+			font-size: 24px!important;
+			color: $primary-color!important;
+			text-transform: uppercase!important;
+			padding-left: 15px;
+			padding-bottom: 15px;
+			border-bottom:1px solid #e5e5e5;
+			margin-bottom: 0;
+		}
+	}
+
+	.dn-large-fixed-column-inline.dn-page-section.dn-page-section-bbd841f1-5f58-42d8-a08f-11dda7e119c8.dn-page-section-with-fixed-column #dn_s_pc_bbd841f1-5f58-42d8-a08f-11dda7e119c8 > .dn-page-column-fixed {
+		//width: 25%;
+		padding-right: 30px;
+	}
+
+	.dn-large-fixed-column-inline.dn-page-section.dn-page-section-bbd841f1-5f58-42d8-a08f-11dda7e119c8.dn-page-section-with-fixed-column.dn-fixed-column-left #dn_s_pc_bbd841f1-5f58-42d8-a08f-11dda7e119c8 > .dn-page-columns-container {
+		//width: 75%;
+	}
+}

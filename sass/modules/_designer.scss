@@ -1,0 +1,10 @@
+.builderDescriptionHeader {
+  a {
+    color: #aaa;
+    display: block;
+    margin-right: 70px;
+    &.active {
+      color: #333;
+    }
+  }
+}
