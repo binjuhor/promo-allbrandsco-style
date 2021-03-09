@@ -8,7 +8,7 @@
         > span {
           border-bottom: 1px solid #e5e5e5;
           padding: 0 15px 8px;
-          display: block;
+          display: block!important;
         }
       }
 
@@ -16,7 +16,7 @@
         &.dn-hierarchy-label {
           border-bottom: 1px solid #e5e5e5;
           padding: 0 15px 8px;
-          display: block;
+          display: block!important;
         }
 
         &.dn-hierarchy-expander {
