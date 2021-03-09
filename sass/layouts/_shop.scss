@@ -923,4 +923,11 @@ div.dn-d-size-multi-container {
     }
   }
 
+  .dn-product-decorate-now-container {
+    @include breakpoint($break-769) {
+      margin-top: 45px!important;
+      margin-bottom: 40px!important;
+    }
+  }
+
 }
