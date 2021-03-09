@@ -1,10 +1,23 @@
 .builderDescriptionHeader {
-  a {
-    color: #aaa;
-    display: block;
-    margin-right: 70px;
-    &.active {
-      color: #333;
+  .dn-links-list {
+    li {
+      a {
+        color: #aaa;
+        display: block;
+        margin-right: 70px;
+        &.active {
+          color: #333;
+        }
+
+      }
+
+      &:first-child{
+        &:not(.clicked){
+          a {
+            color: #333;
+          }
+        }
+      }
     }
   }
 }
