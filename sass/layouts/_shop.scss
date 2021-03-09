@@ -995,3 +995,13 @@ div.dn-d-size-multi-container {
     }
   }
 }
+
+.dn-designer .dn-designer-product-views-panel .dn-designer-product-views li div.dn-d-select-area-container select {
+  padding: 5px 2px 5px 2px!important;
+}
+
+.dn-designer-select-item-type-popup {
+  &.dn-at-fullheight {
+    height: auto!important;
+  }
+}
