@@ -976,7 +976,7 @@ div.dn-d-size-multi-container {
     margin-bottom: 40px;
     input {
       &:first-child {
-        margin-left: 0;
+          margin-left: 0;
       }
     }
   }
@@ -1005,6 +1005,9 @@ div.dn-d-size-multi-container {
     > li {
       display: flex;
       justify-content: space-between;
+      margin-bottom: 30px;
+      align-items: center;
+
       label {
         display: none;
       }
@@ -1016,6 +1019,17 @@ div.dn-d-size-multi-container {
       &:first-child {
         label {
           display: block;
+        }
+      }
+
+      .dn-request-quote-artwork-sizes {
+        li {
+          margin-bottom: 0;
+          margin-right: 15px;
+
+          input {
+            padding: 10px!important;
+          }
         }
       }
     }
