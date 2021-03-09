@@ -12,6 +12,7 @@
       }
 
       span {
+        display: block;
         &.dn-hierarchy-label {
           border-bottom: 1px solid #e5e5e5;
           padding: 0 15px 8px;
@@ -19,7 +20,7 @@
 
         &.dn-hierarchy-expander {
           position: absolute;
-          right: 0;
+          right: 15px;
           top: 14px;
         }
       }
@@ -30,12 +31,14 @@
 @include breakpoint($break-769) {
   .dn-blank-product-hierarchy-container {
     h2 {
-      font-family: $font-family-secondary;
-      font-size: 24px;
-      color: $primary-color;
+      font-family: $font-family-primary!important;
+      font-size: 24px!important;
+      color: $primary-color!important;
       text-transform: uppercase;
       padding-left: 15px;
+      padding-bottom: 15px;
       border-bottom:1px solid #e5e5e5;
+      margin-bottom: 0;
     }
   }
 
