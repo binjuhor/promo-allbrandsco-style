@@ -1007,6 +1007,27 @@ div.dn-d-size-multi-container {
       justify-content: space-between;
       margin-bottom: 30px;
       align-items: center;
+      position: relative;
+
+      > a {
+        position: absolute;
+        left: calc(100% + 15px);
+        color: transparent;
+        display: block;
+        width: 32px;
+        height: 32px;
+
+        &::before {
+          content: "\f00d";
+          font-font: FontAwesome;
+          color: red;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+      }
 
       label {
         display: none;
