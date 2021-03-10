@@ -131,6 +131,13 @@
 	}
 }
 
+.pageCover {
+	@include breakpoint($break-769) {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+}
+
 .reviews-list {
 	@media screen and (max-width: 991px) {
 		margin-top: -45px;
