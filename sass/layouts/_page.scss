@@ -347,7 +347,7 @@
 
 			.slider-img-mb {
 				@include breakpoint($break-600) {
-					display: block;
+					display: none;
 				}
 			}
 
