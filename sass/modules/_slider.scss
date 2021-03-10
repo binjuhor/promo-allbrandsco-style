@@ -7,13 +7,14 @@
   }
 
   .dn-mobile-align-center {
-    text-align: left;
+    text-align: left!important;
     .dn-btn {
-      width: auto;
-      padding: 0 15px;
+      width: auto!important;
+      padding: 0 15px!important;
     }
   }
-  .dn-slider-arrow-container {
+  .dn-slider-arrow-container,
+  .dn-slider-select-container{
     display: none!important;
 
     @include breakpoint($break-600) {
