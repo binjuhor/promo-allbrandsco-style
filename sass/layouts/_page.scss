@@ -336,6 +336,10 @@
 				left: 50%;
 				width: 100%;
 				transform: translate(-50%, -50%);
+
+				a {
+					color: $primary-color;
+				}
 			}
 
 			.slider-img-pc {
@@ -361,9 +365,13 @@
 					display: none;
 				}
 			}
-			h1 {
+
+			h1,
+			h2,
+			h3 {
 				font-size: 24px;
 				margin: 0 0 15px;
+				line-height: 1;
 
 				@media screen and (min-width: 480px) {
 					font-size: 36px;
