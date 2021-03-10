@@ -193,11 +193,11 @@
 			li {
 				margin-bottom: 0!important;
 				&.dn-newsletter-signup-email-address-field {
-					width: 70%;
+					width: 70% !important;
 				}
 
 				&.dn-form-footer-actions {
-					width: 30%;
+					width: 30% !important;
 				}
 			}
 
@@ -207,7 +207,7 @@
 
 				.dn-btn {
 					border-radius: 0 4px 4px 0;
-					line-height: 50px;
+					line-height: 54px;
 				}
 			}
 			.dn-form-field-value {
