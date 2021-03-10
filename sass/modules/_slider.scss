@@ -1,0 +1,23 @@
+.heroSlider {
+  h2 {
+    font-size: 20px!important;
+    @include breakpoint($break-600) {
+        font-size: 48px;
+    }
+  }
+
+  .dn-mobile-align-center {
+    text-align: left;
+    .dn-btn {
+      width: auto;
+      padding: 0 15px;
+    }
+  }
+  .dn-slider-arrow-container {
+    display: none!important;
+
+    @include breakpoint($break-600) {
+      display: block;
+    }
+  }
+}
