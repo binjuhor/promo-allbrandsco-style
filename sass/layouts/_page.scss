@@ -383,15 +383,16 @@
 
 			.btn {
 				margin-top: 20px;
+				white-space: nowrap;
 				@media screen and (max-width: 991px) {
-					padding: 10px;
+					margin-top: 15px;
 				}
 			}
 
 			.left-slider {
 				width: 50%;
 				color: #fff;
-				padding: 40px 50px 20px 15px;
+				padding: 40px 15px 20px 15px;
 
 				@media screen and (min-width: 480px) {
 					padding: 40px 70px 20px 0;
