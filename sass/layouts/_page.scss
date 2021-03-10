@@ -338,7 +338,9 @@
 				transform: translate(-50%, -50%);
 
 				a {
-					color: $primary-color;
+					&:not(.btn) {
+						color: $primary-color;
+					}
 				}
 			}
 
@@ -392,12 +394,8 @@
 			.btn {
 				margin-top: 20px;
 				white-space: nowrap;
-				color: $white-color;
 				@media screen and (max-width: 991px) {
 					margin-top: 15px;
-				}
-				&:hover {
-					color: $primary-color;
 				}
 			}
 
