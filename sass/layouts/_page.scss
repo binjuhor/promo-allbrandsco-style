@@ -3123,4 +3123,11 @@
 	> div {
 		white-space: nowrap;
 	}
+
+
+@media screen and (max-width: 767px) {
+	div.dn-search-results-container div.dn-search-results-panel ul.dn-search-results-list>li div {
+		width: 100% !important;
+	}
+}
 }
