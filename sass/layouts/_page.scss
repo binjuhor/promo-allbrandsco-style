@@ -982,41 +982,45 @@
 
 		@media screen and (min-width: 992px) {
 			padding: 0 30px;
-			width: 33.33%;
-			margin-bottom: 100px;
+			width: 20%;
+			margin-bottom: 40px;
 		}
 
 		@media screen and (min-width: 1200px) {
-			margin-bottom: 155px;
+			margin-bottom: 55px;
 		}
 
-		&:nth-child(3) {
-			@media screen and (max-width: 991px) {
-				order: 4;
-			}
-		}
+		// &:nth-child(3) {
+		// 	@media screen and (max-width: 991px) {
+		// 		order: 4;
+		// 	}
+		// }
 
-		&:nth-child(4) {
-			@media screen and (max-width: 991px) {
-				order: 5;
-			}
+		// &:nth-child(4) {
+		// 	@media screen and (max-width: 991px) {
+		// 		order: 5;
+		// 	}
 
-			@media screen and (min-width: 992px) {
-				margin-bottom: 0;
-			}
-		}
+		// 	@media screen and (min-width: 992px) {
+		// 		margin-bottom: 0;
+		// 	}
+		// }
 
-		&:nth-child(5) {
-			width: 100%;
+		// &:nth-child(5) {
+		// 	width: 100%;
 
-			@media screen and (min-width: 992px) {
-				width: 66.66%;
-				margin-bottom: 0;
-			}
-		}
+		// 	@media screen and (min-width: 992px) {
+		// 		width: 66.66%;
+		// 		margin-bottom: 0;
+		// 	}
+		// }
 
 		figure {
 			margin: 0;
+			min-height: 262px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 
 			img {
 				width: 100%;
@@ -1027,7 +1031,7 @@
 			padding: 0 15px;
 
 			@media screen and (min-width: 992px) {
-				position: absolute;
+				// position: absolute;
 				bottom: 0;
 				width: 100%;
 				left: 0;
@@ -1043,6 +1047,17 @@
 			p {
 				font-size: 17px;
 				margin: 0;
+			}
+		}
+	}
+
+	&.top-sellers {
+		padding-top: 40px;
+
+		> div {
+			@media screen and (min-width: 992px) {
+				padding: 0 15px;
+				width: 16%;
 			}
 		}
 	}
