@@ -1016,7 +1016,7 @@
 		// }
 
 		figure {
-			margin: 0;
+			margin: 0 0 10px 0;
 			min-height: 262px;
 			display: flex;
 			justify-content: center;
@@ -1052,9 +1052,16 @@
 	}
 
 	&.top-sellers {
-		padding-top: 40px;
+		@media screen and (min-width: 992px) {
+			display: flex;
+			margin: 0 -15px;
+			justify-content: space-between;
+		}
 
 		> div {
+			figure {
+				min-height: initial;
+			}
 			@media screen and (min-width: 992px) {
 				padding: 0 15px;
 				width: 16%;
